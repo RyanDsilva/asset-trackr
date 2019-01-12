@@ -19,7 +19,7 @@ class AssetTrackr {
 
   @action
   addUser(_name) {
-    const newUser = bigchain.generateKeypair()
+    const newUser = bigchain.generateKeypair(_name)
     newUser['name'] = _name
     this.users = [...this.users, newUser]
     this.responseText += '<br>Created user: ' + _name

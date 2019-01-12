@@ -24,6 +24,24 @@
         </div>
       </div>
     </section>
+    <section class="container">
+      <br>
+      <table class="table is-fullwidth is-hoverable">
+        <thead>
+          <th>Name</th>
+          <th>Public Key</th>
+          <th>Private Key</th>
+        </thead>
+        <tbody>
+          <tr v-for="(user, index) in users" :key="index">
+            <td>{{ user.name }}</td>
+            <td>{{ user.publicKey }}</td>
+            <td>{{ user.privateKey }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </section>
   </div>
 </template>
 
