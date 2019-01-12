@@ -15,7 +15,7 @@ module.exports = {
   },
   loading: { color: '#fff' },
   css: [],
-  plugins: [],
+  plugins: ['~/plugins/mobx'],
 
   modules: ['@nuxtjs/bulma'],
   build: {
@@ -25,6 +25,22 @@ module.exports = {
           customProperties: false
         }
       }
+    },
+    babel: {
+      plugins: [
+        [
+          '@babel/plugin-proposal-decorators',
+          {
+            legacy: true
+          }
+        ],
+        [
+          '@babel/plugin-proposal-class-properties',
+          {
+            loose: true
+          }
+        ]
+      ]
     },
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
