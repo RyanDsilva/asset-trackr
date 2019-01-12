@@ -1,10 +1,14 @@
-# asset-trackr
+# ✨ Asset Trackr ✨
 
-> BigChainDB Asset Tracker
+> Asset Tracker / Management System built on BigChainDB
 
-## Build Setup
+## Blog ✍️
 
-``` bash
+This is the code repository for the blog post: [Adding to the BigChain](https://ryandsilva.netlify.com/)
+
+## Build Setup 💻
+
+```bash
 # install dependencies
 $ npm install
 
@@ -19,4 +23,6 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## License 📒
+
+Asset Trackr is MIT Licensed.
