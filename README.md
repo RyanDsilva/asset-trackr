@@ -2,10 +2,6 @@
 
 > Asset Tracker / Management System built on BigChainDB
 
-## Blog ✍️
-
-This is the code repository for the blog post: [Adding to the BigChain](https://ryandsilva.netlify.com/)
-
 ## Build Setup 💻
 
 ```bash
